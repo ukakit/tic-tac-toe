@@ -1,0 +1,6 @@
+- create a 3x3 grid
+- tracker to alternate turns
+    - notify the current turn
+- each square within the grid can be clicked on
+    - fill grid with the player's designated shape
+    - if square is occupied, unable to change it

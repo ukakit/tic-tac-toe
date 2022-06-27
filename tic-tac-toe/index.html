@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="welcome-page">
+            <p>How to Play</p>
+            <p>Match 3 in a row!</p>
+            <form>
+                <label for="player-one-name">Player 1 name:</label>
+                <input id="player-one-name">
+                <br>
+                <label for="player-two-name">Player 2 name:</label>
+                <input id="player-two-name">
+                <input type="submit" id="start-button"></button>
+            </form>
+        </div>
+        <div class="game-page hidden">
+            <h2 class="turn-indicator"></h2>
+            <div class="main-game-container">
+                <button type="button" class="box" id="box-one"></button>
+                <button type="button" class="box" id="box-two"></button>
+                <button type="button" class="box" id="box-three"></button>
+                <button type="button" class="box" id="box-four"></button>
+                <button type="button" class="box" id="box-five"></button>
+                <button type="button" class="box" id="box-six"></button>
+                <button type="button" class="box" id="box-seven"></button>
+                <button type="button" class="box" id="box-eight"></button>
+                <button type="button" class="box" id="box-nine"></button>
+            </div>
+            <button type="button" class="hidden" id="reset">Reset</button>
+            <div class="winners">
+                <h2>Rounds Won:</h2>
+                <ul id="player-one-won"></ul>
+                <ul id="player-two-won"></ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
